@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>proyecto php</title>
 </head>
-
 <body>
-
     <div id="container">
         <header id="header">
             <div id="logo">
@@ -25,26 +22,27 @@
                 </ul>
             </nav>
         </header>
-
         <div id="content">
             <aside id="lateral">
-                <h2>lateral</h2>
-            </aside>
-
-            <div id="central">
-                <h2>central</h2>
-                <div class="product">
-                    <h2>producto</h2>
-                    <p>100 pesos</p>
+                <div id="login" class="block_aside">
+                    <h3>Entrar a la web</h3>
+                    <form action="#" method="post">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+                        <input type="submit" value="Entrar">
+                    </form>
                 </div>
+            </aside>
+            <div id="central">
+                <h2>central producto</h2>
+                <p>60 productos</p>
             </div>
         </div>
-
         <footer id="footer">
             <!-- Contenido del footer -->
         </footer>
     </div>
-
 </body>
-
 </html>
